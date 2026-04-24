@@ -17,6 +17,12 @@
 /.next/
 /out/
 
+# Optional Sharp pipeline output (run `npm run images:print`) — promote manually if committing masters
+/public/oryx/print/
+
+# Local super-res experiments (see docs/image-upscale-workflow.md)
+/public/oryx/upscale-staging/
+
 # production
 /build
 
